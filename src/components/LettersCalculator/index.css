@@ -1,0 +1,47 @@
+.app-container {
+  height: 100vh;
+  background-color: #1d976c;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  font-size: 30px;
+  color: white;
+  font-family: roboto;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 12px;
+  color: white;
+}
+
+.input-element {
+  border: 2px solid white;
+  height: 30px;
+  width: 180px;
+  background-color: #1d976c;
+  color: white;
+}
+
+.count-letters {
+  color: green;
+  background-color: white;
+  height: 40px;
+  font-size: 23px;
+  width: 180px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.image {
+  height: 300px;
+  width: 470px;
+}
